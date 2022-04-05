@@ -1,0 +1,30 @@
+.subHeader{
+    display: flex;
+    height: 100px;
+    border-bottom: solid 1px black;
+    height: 12%;
+    width: 95%;
+    margin-left: auto;
+    padding-left: 4%;
+    align-items: center;
+    background-color: white
+    
+}
+
+.subHeader h3{
+    color: #080a26;
+}
+
+@media (max-width: 1024px) {
+   .subHeader{
+     padding-left: 10%;
+     padding-top: 3%;
+   }
+}
+@media (max-width: 400px) {
+    .subHeader{
+      width: 100%;
+      justify-content: center;
+      padding-left: 0;
+    }
+ }

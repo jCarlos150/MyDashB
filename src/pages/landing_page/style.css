@@ -1,0 +1,362 @@
+.body_landing {
+  background-color: #F2F2F2;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#title_page {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#div_segunda Button {
+  min-width: 100px;
+  width: fit-content;
+  background-color: #ffcf30 !important;
+}
+
+@media (max-width: 768px) {
+  #div_info_1 {
+    height: fit-content;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 16px;
+  }
+
+  #div_info_2 {
+    height: fit-content;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #subtitle_page {
+    color: white;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  #div_mobile_subtitle {
+      height: fit-content;
+      padding: 6px;
+      padding-bottom: 24px;
+      margin: 0px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0px 3px 3px rgb(0,0,0, 0.4)
+  }
+
+  #div_mobile_subtitle img {
+    height: 50px;
+  } 
+
+  #div_segunda {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 56px;
+    padding-right: 56px;
+    background-image: linear-gradient(
+      rgba(8, 10, 38, 0.87),
+      rgba(8, 10, 38, 0)
+    );
+  }
+
+  #subtitle_page_download_app {
+    color: black;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  #div_inicial {
+    background-image: url(../../images/landing_page_banner_alpha.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+
+  #div_info {
+    min-height: 400px;
+    height: fit-content;
+    width: 80%;
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #div_info_1_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+  }
+
+  #div_info_1_content div {
+    background-color: #080a26;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #div_info_1_content img {
+    height: 120px;
+    width: 120px;
+  }
+
+  #div_info_1_content p {
+    text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  .title_div_info {
+    color: #0c0f35;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .subtitle_div_info {
+    margin: 16px 0px;
+    color: #0c0f35;
+    font-size: 14px;
+    margin-top: 6px;
+    text-align: center;
+  }
+
+  #image_dispositivos {
+    height: auto;
+    width: 80%;
+  }
+
+  #rodape_small {
+    min-height: 100px;
+    background-color: #080a26;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer img {
+    height: 40px;
+  }
+
+  #footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #menu {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(8, 10, 38, 0.47);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999999;
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #menu img {
+    height: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  #div_info_1 {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    border-top: 1px solid rgba(173, 173, 173, 0.274);
+    border-bottom: 1px solid rgba(173, 173, 173, 0.274);
+  }
+
+  #div_info_2 {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(173, 173, 173, 0.274);
+  }
+
+  #div_segunda {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  #div_inicial {
+    background-image: url(../../images/landing_page_banner_alpha.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 140vh;
+    height: max-content;
+  }
+
+  #div_info {
+    height: 400px;
+    width: 80%;
+    margin-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #div_info_1_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #div_info_1_content div {
+    background-color: #080a26;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #div_info_1_content p {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  #div_info_1_content img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .title_div_info {
+    color: #0c0f35;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .subtitle_div_info {
+    color: #0c0f35;
+    font-size: 18px;
+  }
+
+  #image_dispositivos {
+    height: 300px;
+    margin-top: 40px;
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #080a26;
+    padding-left: 56px;
+  }
+
+  #footer img {
+    height: 40px;
+    margin-top: 30px;
+  }
+
+  #footer p {
+    color: white;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  #menu {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(8, 10, 38, 0.47);
+    /* margin-bottom: -50px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999999999;
+    padding-left: 56px;
+    padding-right: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #menu img {
+    height: 20px;
+  }
+  
+  #subtitle_page {
+    color: white;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+}
+
+#menu button {
+  color: white;
+  border-color: white;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+#menu button:hover {
+  color: #ffcf30;
+  border-color: #ffcf30;
+}
+
+#div_full_go_to_store {
+    height: 100vh;
+    padding-top: 16vh;
+}

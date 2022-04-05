@@ -1,0 +1,16 @@
+.vermelho , .verde , .preto{
+    font-size: 70px;
+    padding-top: 3px;
+
+}
+
+
+.vermelho{
+    color: #9f0d03;
+}
+.verde{
+    color: #00760c;
+}
+.preto{
+    color: black;
+}

@@ -1,0 +1,60 @@
+
+
+.navUser{
+    display: flex;
+    width: fit-content;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 24px;
+}
+.navUser:hover{
+    opacity: 0.8;
+}
+.logoU{
+  padding-left: 1.8%;
+}
+
+.navUser img{
+  width: 25px;
+  height: 25px;
+  margin-right: 0.5rem;
+
+}
+.navUser_root{
+  transition: all ease 0.5s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  margin-right: 32px;
+}
+
+.btnuser{
+  display: none;
+}
+.btnuserShow{
+   display: block
+}
+
+
+
+
+
+
+.navUser_root button{
+  margin-top: 40%;
+  padding: 2%  10%;
+  
+}
+
+@media (max-width: 400px) {
+  .navUser h2{
+    font-size: 14px;
+  }
+}
+
+
+

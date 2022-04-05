@@ -1,0 +1,9 @@
+.divFooter {
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ height: 32px;
+ font-weight: 300;
+ font-size: 14px;
+ color: #080a26;
+}

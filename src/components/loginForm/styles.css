@@ -1,0 +1,128 @@
+.form_login{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px !important;
+}
+
+.form_login img{
+    width: 120px;
+}
+.form_login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+#link_esqueci_senha{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    text-align: end;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+}
+.form_login form a:hover{
+    color: #d5a819;
+}
+
+.btn_login{
+    font-size: 14px ;
+    text-transform: uppercase;
+    color: white;
+    background-color: #d5a819 ;
+    border: none;
+    height: 32px;
+    width: 100%;
+    margin-top: 16px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.btn_login:hover{
+    transform: perspective(1.1);
+    transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+}
+
+.btn_sign {
+    background-color: #161d81 !important;
+    text-align: center;
+}
+
+#link_ir_p_cadastro {
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(0,0,0, 0.87);
+    text-decoration: none;
+    
+}
+#link_ir_p_cadastro:hover{
+    color: #d5a819;
+}
+#text_ou {
+    text-align: center;
+}
+.divisores{
+    margin-top: 16px !important;
+}
+.divisores span{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 8%
+}
+
+.divisor{
+  height: 0.5px;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+.btnface{
+    background-color: #3b5998 ;
+}
+.btnface img{
+    height: 20px;
+    width: 20px;
+    margin-right: 4%;
+}
+.btngoogle{
+    background-color: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    color: black;
+}
+.btn_cadastrar{
+    margin-top: 8%;
+}
+
+.validar{
+  color: red;
+  font-size: 12px;
+  margin-top: -6%;
+
+}
+
+.validar-senha{
+    margin-top: 0
+}
+
+.erro-false{
+    display: none;
+}
+
+.erro-true{
+    text-align: center;
+    color: red;
+    font-size: 1,4rem;
+}
+

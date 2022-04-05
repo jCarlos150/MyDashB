@@ -1,0 +1,150 @@
+.form_login {
+  padding: 16px 32px 8px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+}
+
+.form_login img {
+  width: 120px;
+}
+.form_login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form_login input {
+  color: "green";
+}
+
+.title_signup {
+  font-size: 22px;
+  font-weight: bold;
+  color: #080A26;
+}
+
+#link_esqueci_senha {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  text-align: end;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
+}
+
+#link_btn_back_login {
+  height: 24px !important;
+  color: #616161;
+}
+
+#link_back_login {
+  font-size: 12px;
+  color: #616161;
+  margin-left: -6px;
+}
+
+#button_back_login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#button_back_login:hover {
+  cursor: pointer;
+}
+
+.form_login form a:hover {
+  color: #d5a819;
+}
+
+.btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #d5a819;
+  border: none;
+  height: 32px;
+  width: 100%;
+  margin-top: 16px;
+  padding: 0px 16px 0px 16px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: ease 1s;
+  box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.4);
+}
+.btn:hover {
+  transform: scale(1.02);
+  transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+}
+
+#link_ir_p_login {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(0, 0, 0, 0.87);
+  margin-top: 16px !important;
+}
+#link_ir_p_login:hover {
+  color: #d5a819;
+}
+#div_concordo_termos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#div_concordo_termos a {
+    text-decoration: underline;
+    color: rgb(0, 0, 0, 0.87);
+}
+.divisores {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+}
+.divisores span {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0 8%;
+}
+
+.divisor {
+  height: 0.5px;
+  width: 129px;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+.btnface {
+  background-color: #3b5998;
+}
+.btnface img {
+  height: 20px;
+  width: 20px;
+  margin-right: 4%;
+}
+.btngoogle {
+  background-color: #fff;
+  color: black;
+}
+
+.validar {
+  color: red;
+  font-size: 12px;
+  margin-top: -6%;
+}
+
+.validar-senha {
+  margin-top: 0;
+}
+
+.teste {
+  border: 1px solid black !important;
+}
